@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center"
+    android:padding="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:text="Pindah halaman"
+       android:paddingBottom="15dp"
+       android:id="@+id/btnPindahHalaman"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnPindahBawadata"
+        android:paddingBottom="15dp"
+        android:layout_below="@id/btnPindahHalaman"
+        android:text="Pindah bawa data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:paddingBottom="15dp"
+        android:id="@+id/btnPindahBawaObject"
+        android:text="pindah bawa object"
+        android:layout_below="@id/btnPindahBawadata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="call phone"
+        android:id="@+id/btnCallPhone"
+        android:paddingBottom="15dp"
+        android:layout_below="@id/btnPindahBawaObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+ <Button
+     android:id="@+id/btnEmail"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/btnCallPhone"
+     android:paddingBottom="15dp"
+     android:text="email" />
+
+    <Button
+        android:text="call back"
+        android:id="@+id/btnCallBack"
+        android:layout_below="@id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
